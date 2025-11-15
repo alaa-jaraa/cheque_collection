@@ -8,6 +8,23 @@ app_license = "mit"
 # Apps
 # ------------------
 
+
+fixtures = [
+    {
+        "doctype": "Designation",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Cheque Collection",
+                ]
+            ]
+        ]
+    }
+]
+
+doctype_list_js = {"PDC Cheque" : "public/js/pdc_chequelist.js"}
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
